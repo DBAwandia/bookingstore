@@ -1,0 +1,134 @@
+.baz{
+    width: 100%;
+    height: 60vh;
+    margin-left: 10px;
+    border: 0.3px solid lightgray;
+    border-radius: 3px;
+    margin: 5px 10px;
+}
+.image_bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.image > img{
+    width: 300px;
+    height: 300px;
+    margin: 10px 20px;
+    border-radius: 2px;
+    background-size: cover contain;
+}
+.center_bar{
+    display: flex;
+    flex-direction: column;
+}
+.center_bar > h1{
+    font-size: 21px;
+    font-weight: 800;
+    color: rgb(83, 83, 247);
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.center_bar > p{
+    font-size: 16px;
+    font-weight: 250;
+    margin-top: 10px;
+}
+.center_bar > button{
+    width: 220px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    height: 45px;
+    background-color: rgb(24, 122, 24);
+    color: #fff;
+    border: 0;
+    font-size: 17px;
+    outline: 0;
+    padding: 5px 8px;
+    margin: 5px 0px;
+
+}
+.center_bar > button:active{
+    background-color: rgb(202, 247, 202);
+    transition: 0.2s ease;
+}
+.center_bar > b{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.Cancellations{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 15px;
+
+}
+.Cancellation{
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+    margin-top: 10px;
+}
+.later{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: teal;
+}
+
+.right_bar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.ratingss{
+    display: flex;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.ratingss >h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.ratingss > button{
+    width: 50px;
+    height: 30px;
+    color: #fff;
+    margin-left: 70px;
+    background-color: #003580;
+    
+}
+.right_bar > b{
+    margin-left: 180px;
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(30, 214, 30);
+}
+.right_bar > p{
+    margin-left: 68px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.butoons{
+    text-decoration: none;
+    outline: 0;
+}
+.butoons:active{
+    background-color: #c5d7f1;
+    transition: 0.2s ease;
+}
+.availability{
+    width: 220px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    height: 42px;
+    background-color:#003580;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    outline: 0;
+}

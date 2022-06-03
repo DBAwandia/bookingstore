@@ -1,0 +1,139 @@
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 310px;
+}
+.headerList{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.listNode{
+    margin: 0;
+    height: 90px;
+}
+.headerListItem{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.menus{
+    margin-bottom: 10px;
+}
+.headerListItem>p{
+    font-size: 21px;
+    margin-right: 50px;
+}
+.headerListItem:active{
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc{
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.headerButton{
+    background-color: #0071c2;
+    /* background: linear-gradient(180deg,yellow 20%, rgb(16, 16, 32)); */
+    /* background: radial-gradient(farthest-corner at 20px 20px,yellow 20%, rgb(16, 16, 32)); */
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.headerSearch{
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid #febb02;
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px 0px;
+    bottom: -25px;
+}
+
+.headerSearchItem > p{
+    color: lightgray;
+   
+}
+.headerSearchItem > button{
+    background-color: #0071c2;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+
+}
+.headerTitle{
+    letter-spacing: 1.5px;
+}
+.headerSearchItem > input{
+    border: none;
+    outline: 0;
+    font-size: 18px;
+
+}
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.options{
+    position: absolute;
+    top: 50px;
+    margin-left: 78px;
+    background-color: #fff;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0 ,0 , 0.4);
+    z-index: 2;
+
+}
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+.optionCounter > button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    cursor: pointer;
+    color: #0071c2;
+    background-color: #fff;
+
+}

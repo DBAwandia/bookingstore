@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    height: 190px;
+}
+.lists{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 500px;
+
+}
+.lists > ul{
+    flex-direction: column;
+    list-style: none;
+    margin-left: 30px;
+
+
+}
+.lists > li{
+    margin-top: 20px;
+}
+.ken{
+    margin-left: 580px;
+    margin-top: 30px;
+}
